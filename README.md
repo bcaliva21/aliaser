@@ -12,6 +12,10 @@ Simple go program to alias files in a zsh shell
 - move the binary into your local bin `sudo mv aliaser /usr/local/bin/aliaser`
 - restart terminal or run `source ~/.zshrc` for good measure
 
-#### Testing
-- run `aliaser -h` to view options/flags and how to use the program
+#### How to Use
+- `-h, --help`  displays usage and options
+- `-p, --path`  sets the path for your alias
+- `-a, --alias` sets the alias for the specified path
+- example `aliaser -p /Users/user_name/Desktop -a desk`
+- restart terminal or run `source ~/.zshrc` for alias to take effect
 
